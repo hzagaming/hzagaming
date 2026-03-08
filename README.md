@@ -12,12 +12,10 @@
 
 # 👋 About Me
 
-🎮 Game Developer  
+🎮 Game Developer，Middle School Student  
 🧠 Founder of **Hanazar Games**  
 🚀 Currently building **Maze: Identity**  
 📍 Singapore  
-
-I build games, AI tools, and open-source projects.
 
 ---
 
@@ -28,14 +26,14 @@ I build games, AI tools, and open-source projects.
 | Maze Identity | Unity 3D exploration game about identity |
 | Live2D AI | AI character chat website |
 | RVC Voice Models | Anime voice conversion models |
-| 3D 2048 | Experimental 3D puzzle game |
+| 3D 2048 | Experimental 3D puzzle webgame |
 
 ---
 
 # 🧠 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,python,html,css,nodejs,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,sql,lua,c++,unreal,visualstudio,python,html,css,nodejs,git,github,vscode" />
 </p>
 
 ---
@@ -44,14 +42,6 @@ I build games, AI tools, and open-source projects.
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=hzagaming&show_icons=true&theme=tokyonight" />
-</p>
-
----
-
-# 📊 Top Languages
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hzagaming&layout=compact&theme=tokyonight" />
 </p>
 
 ---
@@ -68,22 +58,6 @@ I build games, AI tools, and open-source projects.
 
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=hzagaming&theme=tokyo-night" />
-</p>
-
----
-
-# 🏆 GitHub Trophy
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=hzagaming&theme=tokyonight&row=1&column=6" />
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/hzagaming/hzagaming/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
