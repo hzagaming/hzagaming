@@ -19,34 +19,27 @@
 
 ---
 
-# 🚀 Projects
+# Projects
 
 | Project | Description |
 |------|-------------|
-| Maze Identity | Unity 3D exploration game about identity |
-| Live2D AI | AI character chat website |
+| Maze Identity | Unity 3D exploration game |
+| Live2D AI | AI chatbot |
 | RVC Voice Models | Anime voice conversion models |
 | 3D 2048 | Experimental 3D puzzle webgame |
 
 ---
 
-# 🧠 Tech Stack
+# Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,sql,lua,c++,unreal,visualstudio,python,html,css,nodejs,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,lua,C,unreal,visualstudio,python,html,css,nodejs,git,github,vscode" />
 </p>
+
 
 ---
 
-# 📊 GitHub Stats
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=hzagaming&show_icons=true&theme=tokyonight" />
-</p>
-
----
-
-# 🔥 Contribution Streak
+# Contribution Streak
 
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=hzagaming&theme=tokyonight" />
@@ -54,7 +47,7 @@
 
 ---
 
-# 📈 Activity Graph
+# Activity Graph
 
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=hzagaming&theme=tokyo-night" />
@@ -62,7 +55,7 @@
 
 ---
 
-# 👀 Visitor Counter
+# Visitor Counter
 
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=hzagaming&label=Profile%20views&color=blue&style=flat" />
@@ -77,7 +70,7 @@
 <img src="https://img.shields.io/badge/GitHub-hzagaming-black?style=for-the-badge&logo=github">
 </a>
 
-<a href="https://linkedin.com">
+<a href="[https://linkedin.com](https://www.linkedin.com/in/charlie-zhong-1776ba336/)">
 <img src="https://img.shields.io/badge/LinkedIn-Charlie-blue?style=for-the-badge&logo=linkedin">
 </a>
 </p>
