@@ -14,66 +14,83 @@
 <p align="center">
 
 <a href="https://linktr.ee/hanazarochikawa">
-<img src="https://img.shields.io/badge/Linktree-All%20Links-39E09B?style=for-the-badge&logo=linktree&logoColor=white">
+<img src="https://img.shields.io/badge/Linktree-grey?style=flat-square&logo=linktree&logoColor=white">
+<img src="https://img.shields.io/badge/ALL%20LINKS-39E09B?style=flat-square">
 </a>
 
 <a href="https://space.bilibili.com/3546876651505748">
-<img src="https://img.shields.io/badge/Bilibili-Video%20Channel-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white">
+<img src="https://img.shields.io/badge/Bilibili-grey?style=flat-square&logo=bilibili&logoColor=white">
+<img src="https://img.shields.io/badge/VIDEO%20CHANNEL-00A1D6?style=flat-square">
 </a>
 
 <a href="https://www.youtube.com/@hanazarochikawa">
-<img src="https://img.shields.io/badge/YouTube-Hanazar%20Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+<img src="https://img.shields.io/badge/Youtube-grey?style=flat-square&logo=youtube&logoColor=white">
+<img src="https://img.shields.io/badge/HANAZAR%20CHANNEL-FF0000?style=flat-square">
 </a>
 
 <a href="https://www.tiktok.com/@hanazarochikawa">
-<img src="https://img.shields.io/badge/TikTok-@hanazarochikawa-000000?style=for-the-badge&logo=tiktok&logoColor=white">
+<img src="https://img.shields.io/badge/Tiktok-grey?style=flat-square&logo=tiktok&logoColor=white">
+<img src="https://img.shields.io/badge/@HANAZAROCHIKAWA-black?style=flat-square">
 </a>
 
 <a href="https://www.douyin.com/user/MS4wLjABAAAAFLfyCAfzJutkGc1zmzXljaj2hQTdl0XHdk4mk3wwH5zn7OfK0FRyI_paLQFm_GcC">
-<img src="https://img.shields.io/badge/Douyin-抖音%20Channel-FF2C55?style=for-the-badge&logo=tiktok&logoColor=white">
+<img src="https://img.shields.io/badge/Douyin-grey?style=flat-square&logo=tiktok&logoColor=white">
+<img src="https://img.shields.io/badge/抖音%20CHANNEL-FF2C55?style=flat-square">
 </a>
 
 <a href="https://v.kuaishou.com/KAjukbzt">
-<img src="https://img.shields.io/badge/Kuaishou-快手%20Channel-FF4906?style=for-the-badge">
+<img src="https://img.shields.io/badge/Kuaishou-grey?style=flat-square">
+<img src="https://img.shields.io/badge/快手%20CHANNEL-FF4906?style=flat-square">
 </a>
 
 <a href="https://xhslink.com/m/1pkKOki7Qu3">
-<img src="https://img.shields.io/badge/Rednote-小红书%20Blog-FF2442?style=for-the-badge">
+<img src="https://img.shields.io/badge/Rednote-grey?style=flat-square">
+<img src="https://img.shields.io/badge/小红书%20BLOG-FF2442?style=flat-square">
 </a>
 
 <a href="https://github.com/Hanazar-Ochikawa">
-<img src="https://img.shields.io/badge/GitHub-Hanazar%20Projects-181717?style=for-the-badge&logo=github">
+<img src="https://img.shields.io/badge/Github-grey?style=flat-square&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/HANAZAR%20PROJECTS-black?style=flat-square">
 </a>
 
 <a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
-<img src="https://img.shields.io/badge/LinkedIn-Charlie%20Zhong-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/LinkedIn-grey?style=flat-square&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/CHARLIE%20ZHONG-0A66C2?style=flat-square">
 </a>
 
 <a href="https://tr.ee/b4HprZE83n">
-<img src="https://img.shields.io/badge/Patreon-Support%20Me-F96854?style=for-the-badge&logo=patreon&logoColor=white">
+<img src="https://img.shields.io/badge/Patreon-grey?style=flat-square&logo=patreon&logoColor=white">
+<img src="https://img.shields.io/badge/SUPPORT%20ME-F96854?style=flat-square">
 </a>
 
 <a href="https://tr.ee/yyORH7BMZ6">
-<img src="https://img.shields.io/badge/Itch.io-Games-FA5C5C?style=for-the-badge&logo=itchdotio&logoColor=white">
+<img src="https://img.shields.io/badge/Itch.io-grey?style=flat-square&logo=itchdotio&logoColor=white">
+<img src="https://img.shields.io/badge/GAMES-FA5C5C?style=flat-square">
 </a>
 
 <a href="https://tr.ee/E_IJEP9_qs">
-<img src="https://img.shields.io/badge/Twitch-Livestream-9146FF?style=for-the-badge&logo=twitch&logoColor=white">
+<img src="https://img.shields.io/badge/Twitch-grey?style=flat-square&logo=twitch&logoColor=white">
+<img src="https://img.shields.io/badge/LIVESTREAM-9146FF?style=flat-square">
 </a>
 
 <a href="https://tr.ee/fYKAtsCPS-">
-<img src="https://img.shields.io/badge/Reddit-Community-FF4500?style=for-the-badge&logo=reddit&logoColor=white">
+<img src="https://img.shields.io/badge/Reddit-grey?style=flat-square&logo=reddit&logoColor=white">
+<img src="https://img.shields.io/badge/COMMUNITY-FF4500?style=flat-square">
 </a>
 
 <a href="https://tr.ee/Y0n7zUhUcX">
-<img src="https://img.shields.io/badge/Sketchfab-3D%20Models-1CAAD9?style=for-the-badge&logo=sketchfab&logoColor=white">
+<img src="https://img.shields.io/badge/Sketchfab-grey?style=flat-square&logo=sketchfab&logoColor=white">
+<img src="https://img.shields.io/badge/3D%20MODELS-1CAAD9?style=flat-square">
 </a>
 
 <a href="https://tr.ee/yrf3nrNOw_">
-<img src="https://img.shields.io/badge/Pinterest-Art%20Board-BD081C?style=for-the-badge&logo=pinterest&logoColor=white">
+<img src="https://img.shields.io/badge/Pinterest-grey?style=flat-square&logo=pinterest&logoColor=white">
+<img src="https://img.shields.io/badge/ART%20BOARD-BD081C?style=flat-square">
 </a>
 
 </p>
+
+
 
 
 ---
