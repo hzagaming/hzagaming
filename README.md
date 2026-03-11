@@ -11,6 +11,7 @@
 
 
 
+
 <p align="center">
 
 <a href="https://linktr.ee/hanazarochikawa">
@@ -93,17 +94,23 @@
 
 
 
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=hzagaming&label=Profile%20views&color=blue&style=flat" />
+</p>
+
+
+
+
 ---
 
 # 👋 About Me
 
-Game Developer
-3D Artist
-Web developer
-
-Founder of **Hanazar Software**  
-🚀 Currently building **Maze: Identity**  
-📍 Singapore  
+#Game Developer
+#3D Artist
+#Web developer
+#Founder of **Hanazar Software**  
+#Currently building **Maze: Identity**  
+#Singapore  
 
 ---
 
@@ -141,13 +148,6 @@ Founder of **Hanazar Software**
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=hzagaming&theme=tokyo-night" />
 </p>
 
----
-
-# Visitor Counter
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=hzagaming&label=Profile%20views&color=blue&style=flat" />
-</p>
 
 ---
 
