@@ -49,45 +49,12 @@
 <img src="https://img.shields.io/badge/11.9k-FF2442?style=flat-square">
 </a>
 
-<a href="https://github.com/Hanazar-Ochikawa">
-<img src="https://img.shields.io/badge/Github-grey?style=flat-square&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/HANAZAR%20PROJECTS-black?style=flat-square">
-</a>
-
 <a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
 <img src="https://img.shields.io/badge/LinkedIn-grey?style=flat-square&logo=linkedin&logoColor=white">
 <img src="https://img.shields.io/badge/4.1k-0A66C2?style=flat-square">
 </a>
 
-<a href="https://tr.ee/b4HprZE83n">
-<img src="https://img.shields.io/badge/Patreon-grey?style=flat-square&logo=patreon&logoColor=white">
-<img src="https://img.shields.io/badge/15-F96854?style=flat-square">
-</a>
 
-<a href="https://tr.ee/yyORH7BMZ6">
-<img src="https://img.shields.io/badge/Itch.io-grey?style=flat-square&logo=itchdotio&logoColor=white">
-<img src="https://img.shields.io/badge/10-FA5C5C?style=flat-square">
-</a>
-
-<a href="https://tr.ee/E_IJEP9_qs">
-<img src="https://img.shields.io/badge/Twitch-grey?style=flat-square&logo=twitch&logoColor=white">
-<img src="https://img.shields.io/badge/2-9146FF?style=flat-square">
-</a>
-
-<a href="https://tr.ee/fYKAtsCPS-">
-<img src="https://img.shields.io/badge/Reddit-grey?style=flat-square&logo=reddit&logoColor=white">
-<img src="https://img.shields.io/badge/30-FF4500?style=flat-square">
-</a>
-
-<a href="https://tr.ee/Y0n7zUhUcX">
-<img src="https://img.shields.io/badge/Sketchfab-grey?style=flat-square&logo=sketchfab&logoColor=white">
-<img src="https://img.shields.io/badge/3-1CAAD9?style=flat-square">
-</a>
-
-<a href="https://tr.ee/yrf3nrNOw_">
-<img src="https://img.shields.io/badge/Pinterest-grey?style=flat-square&logo=pinterest&logoColor=white">
-<img src="https://img.shields.io/badge/23-BD081C?style=flat-square">
-</a>
 
 </p>
 
@@ -102,8 +69,6 @@
 
 
 ---
-
-# 👋 About Me
 
 #Game Developer
 #3D Artist
