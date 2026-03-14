@@ -116,7 +116,7 @@
 
 ---
 
-# 🌐 Connect With Me
+# Connect
 
 <p align="center">
 <a href="https://github.com/hzagaming">
@@ -127,6 +127,10 @@
 <img src="https://img.shields.io/badge/LinkedIn-Charlie-blue?style=for-the-badge&logo=linkedin">
 </a>
 </p>
+
+17358677225@163.com
+</p>
+zlc.sg@outlook.com
 
 ---
 
