@@ -70,23 +70,17 @@
 
 ---
 
-#Game Developer
-#3D Artist
-#Web developer
-#Founder of **Hanazar Software**  
+#Game Developer**
+</p>
+#3D Artist**
+</p>
+#Web developer**
+</p>
+#Founder of **Hanazar Software** 
+</p>
 #Currently building **Maze: Identity**  
+</p>
 #Singapore  
-
----
-
-# Projects
-
-| Project | Description |
-|------|-------------|
-| Maze Identity | Unity 3D exploration game |
-| Live2D AI | AI chatbot |
-| RVC Voice Models | Anime voice conversion models |
-| 3D 2048 | Experimental 3D puzzle webgame |
 
 ---
 
