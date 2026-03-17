@@ -69,19 +69,17 @@
 
 
 ---
-
-#Game Developer**
+#Game Developer
 </p>
-#3D Artist**
+#3D Artist
 </p>
-#Web developer**
+#Web developer
 </p>
-#Founder of **Hanazar Software** 
+#Founder of Hanazar Software
 </p>
-#Currently building **Maze: Identity**  
+#Currently building Maze: Identity
 </p>
 #Singapore  
-
 ---
 
 # Tech Stack
