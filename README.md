@@ -1,6 +1,6 @@
 <!-- BANNER -->
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Welcome to My Github!&fontSize=50&fontAlignY=40" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Welcome%20to%20My%20Github!&fontSize=50&fontAlignY=40" />
 </p>
 
 <!-- TYPING -->
