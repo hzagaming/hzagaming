@@ -80,6 +80,7 @@ Founder of Hanazar Software
 Currently building Maze: Identity
 </p>
 Kali Linux
+</p>
 ---
 
 # Tech Stack
