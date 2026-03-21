@@ -86,7 +86,7 @@ Kali Linux
 # Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,kali,lua,c,unreal,visualstudio,python,html,css,nodejs,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,kali,lua,c,unreal,visualstudio,python,html,css,nodejs,nextjs,fusion,adobe,git,github,vscode" />
 </p>
 
 
