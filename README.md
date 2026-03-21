@@ -69,23 +69,23 @@
 
 
 ---
-#Game Developer
+Game Developer
 </p>
-#3D Artist
+3D Artist
 </p>
-#Web developer
+Web developer
 </p>
-#Founder of Hanazar Software
+Founder of Hanazar Software
 </p>
-#Currently building Maze: Identity
+Currently building Maze: Identity
 </p>
-#Singapore  
+Kali Linux
 ---
 
 # Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,lua,c,unreal,visualstudio,python,html,css,nodejs,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,kali,lua,c,unreal,visualstudio,python,html,css,nodejs,git,github,vscode" />
 </p>
 
 
