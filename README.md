@@ -21,7 +21,7 @@
 
 <a href="https://space.bilibili.com/3546876651505748">
 <img src="https://img.shields.io/badge/Bilibili-grey?style=flat-square&logo=bilibili&logoColor=white">
-<img src="https://img.shields.io/badge/3.7k-00A1D6?style=flat-square">
+<img src="https://img.shields.io/badge/3.9k-00A1D6?style=flat-square">
 </a>
 
 <a href="https://www.youtube.com/@hanazarochikawa">
@@ -36,12 +36,12 @@
 
 <a href="https://www.douyin.com/user/MS4wLjABAAAAFLfyCAfzJutkGc1zmzXljaj2hQTdl0XHdk4mk3wwH5zn7OfK0FRyI_paLQFm_GcC">
 <img src="https://img.shields.io/badge/Douyin-grey?style=flat-square&logo=tiktok&logoColor=white">
-<img src="https://img.shields.io/badge/1.5k-FF2C55?style=flat-square">
+<img src="https://img.shields.io/badge/2.1k-FF2C55?style=flat-square">
 </a>
 
 <a href="https://v.kuaishou.com/KAjukbzt">
 <img src="https://img.shields.io/badge/Kuaishou-grey?style=flat-square">
-<img src="https://img.shields.io/badge/46-FF4906?style=flat-square">
+<img src="https://img.shields.io/badge/0.5k-FF4906?style=flat-square">
 </a>
 
 <a href="https://xhslink.com/m/1pkKOki7Qu3">
@@ -51,7 +51,7 @@
 
 <a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
 <img src="https://img.shields.io/badge/LinkedIn-grey?style=flat-square&logo=linkedin&logoColor=white">
-<img src="https://img.shields.io/badge/4.1k-0A66C2?style=flat-square">
+<img src="https://img.shields.io/badge/4.5k-0A66C2?style=flat-square">
 </a>
 
 
