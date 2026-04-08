@@ -84,9 +84,10 @@ Kali Linux/SW Databases
 # Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,kali,lua,c,java,php,unreal,visualstudio,python,html,css,nodejs,nextjs,vuejs,react,expressjs,notion,3dmax,maya,c4d,ae,ps,docker,vite,threejs,git,github,vscode" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=unity,unreal,blender,cs,c,cpp,java,php,py,lua,js,ts,html,css,nodejs,express,nextjs,vue,react,vite,threejs,tailwind,docker,git,github,vscode,visualstudio,kali,notion,ae,ps&perline=10" />
+  </a>
 </p>
-
 
 ---
 
