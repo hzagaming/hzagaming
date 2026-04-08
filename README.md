@@ -85,7 +85,7 @@ Kali Linux/SW Databases
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=unity,unreal,blender,cs,c,cpp,java,php,py,lua,js,ts,html,css,nodejs,express,nextjs,vue,react,vite,threejs,tailwind,docker,git,github,vscode,visualstudio,kali,notion,ae,ps&perline=10" />
+    <img src="https://skillicons.dev/icons?i=unity,unreal,blender,cs,c,cpp,java,php,py,lua,js,ts,html,css,nodejs,express,nextjs,vue,react,vite,threejs,tailwind,docker,git,github,vscode,visualstudio,kali,notion,ae,ps" />
   </a>
 </p>
 
