@@ -5,7 +5,7 @@
 
 <!-- TYPING -->
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=Unity+Game+Developer;Founder+of+Hanazar+Software;Middle+School+Student;Open+Source+Developer;AI+%7C+Game+Design&center=true&size=25">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Unity+%7c+Unreal+Game+Developer;Founder+of+Hanazar+Software;Middle+School+Student;Open+Source+Developer;AI+%7C+Game+Design&center=true&size=25">
 </p>
 
 
@@ -69,7 +69,7 @@
 
 
 ---
-Game Developer
+Unity/Unreal Developer
 </p>
 3D Artist
 </p>
@@ -77,16 +77,14 @@ Web developer
 </p>
 Founder of Hanazar Software
 </p>
-Currently building Maze: Identity
-</p>
-Kali Linux
+Kali Linux/SW Databases
 </p>
 ---
 
 # Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,kali,lua,c,java,php,unreal,visualstudio,python,html,css,nodejs,nextjs,vuejs,docker,vite,threejs,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=unity,cs,blender,js,ts,kali,lua,c,java,php,unreal,visualstudio,python,html,css,nodejs,nextjs,vuejs,react,expressjs,notion,3dmax,maya,c4d,ae,ps,docker,vite,threejs,git,github,vscode" />
 </p>
 
 
