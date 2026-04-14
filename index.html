@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HZA Portfolio</title>
+    <meta
+      name="description"
+      content="HZA Gaming 个人作品集首页，按 Blender、Fusion360、UE、Unity 与 Code 分类浏览。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <div class="background-orb orb-a"></div>
+    <div class="background-orb orb-b"></div>
+    <div class="background-grid"></div>
+
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand-mark" href="index.html">
+          <span class="brand-mark__kicker">HZA GAMING</span>
+          <span class="brand-mark__title">Portfolio Atlas</span>
+        </a>
+        <nav class="topbar__nav">
+          <a href="#software">软件分类</a>
+          <a href="#featured">精选作品</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero panel">
+          <div class="hero__content">
+            <p class="eyebrow">PERSONAL WEBSITE FRAMEWORK</p>
+            <h1>
+              把建模、实时引擎、
+              <span class="text-gradient">产品结构与代码实验</span>
+              放进同一张作品地图。
+            </h1>
+            <p class="hero__lede">
+              这是为你现在的仓库搭起来的第一版个人网站框架。首页先负责风格、导航与整体气质，
+              下面按软件分类进入各自的作品集页面，再继续跳到每个项目的独立详情页。
+            </p>
+
+            <div class="hero__actions" data-role="hero-category-links"></div>
+
+            <div class="stat-row" data-role="site-stats"></div>
+          </div>
+
+          <aside class="hero__visual">
+            <div class="visual-card visual-card--primary">
+              <span class="visual-card__label">Current Focus</span>
+              <strong>Worldbuilding / Realtime / Tooling</strong>
+              <p>以场景叙事、交互原型与创作工具为主线，持续搭建个人作品生态。</p>
+            </div>
+            <div class="visual-card visual-card--secondary">
+              <span class="visual-card__label">Preview</span>
+              <ul class="stacked-list" data-role="preview-list"></ul>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section" id="software">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">SOFTWARE CHANNELS</p>
+              <h2>按软件分类进入作品集</h2>
+            </div>
+            <p class="section-heading__text">
+              先从大类切入，再在里面看每个项目的概览和详情页占位。
+            </p>
+          </div>
+
+          <div class="software-grid" data-role="category-grid"></div>
+        </section>
+
+        <section class="section" id="featured">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">SELECTED WORKS</p>
+              <h2>首页精选作品</h2>
+            </div>
+            <p class="section-heading__text">
+              这里先放几个代表性项目，方便后续继续补图和补完整文案。
+            </p>
+          </div>
+
+          <div class="featured-grid" data-role="featured-grid"></div>
+        </section>
+      </main>
+
+      <footer class="footer panel">
+        <p>HZA Portfolio Framework</p>
+        <p>当前版本以结构搭建为主，后续可以继续补人物介绍、联系方式、真实项目图与更完整文案。</p>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
