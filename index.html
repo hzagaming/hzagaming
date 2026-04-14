@@ -6,7 +6,7 @@
     <title>HZA Portfolio</title>
     <meta
       name="description"
-      content="HZA Gaming 个人作品集首页，按 Blender、Fusion360、UE、Unity 与 Code 分类浏览。"
+      content="HZA Gaming 黑白风个人网站首页，先展示个人介绍，再按 Blender、Fusion360、UE、Unity 与 Code 分类浏览作品文章。"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,68 +25,69 @@
       <header class="topbar">
         <a class="brand-mark" href="index.html">
           <span class="brand-mark__kicker">HZA GAMING</span>
-          <span class="brand-mark__title">Portfolio Atlas</span>
+          <span class="brand-mark__title">Personal Website</span>
         </a>
-        <nav class="topbar__nav">
-          <a href="#software">软件分类</a>
-          <a href="#featured">精选作品</a>
-        </nav>
+        <div class="topbar__meta">
+          <span class="version-badge" data-role="version-badge"></span>
+          <nav class="topbar__nav">
+            <a href="#intro">个人介绍</a>
+            <a href="#software">作品分类</a>
+            <a href="#featured">作品文章</a>
+          </nav>
+        </div>
       </header>
 
       <main>
-        <section class="hero panel">
-          <div class="hero__content">
-            <p class="eyebrow">PERSONAL WEBSITE FRAMEWORK</p>
-            <h1>
-              把建模、实时引擎、
-              <span class="text-gradient">产品结构与代码实验</span>
-              放进同一张作品地图。
-            </h1>
-            <p class="hero__lede">
-              这是为你现在的仓库搭起来的第一版个人网站框架。首页先负责风格、导航与整体气质，
-              下面按软件分类进入各自的作品集页面，再继续跳到每个项目的独立详情页。
-            </p>
+        <section class="intro-hero panel" id="intro" data-reveal>
+          <div class="intro-hero__copy">
+            <p class="eyebrow">PERSONAL INTRO</p>
+            <h1 data-role="home-title"></h1>
+            <p class="intro-hero__lead" data-role="home-lead"></p>
+            <p class="intro-hero__tagline" data-role="home-tagline"></p>
+            <p class="intro-hero__text" data-role="home-summary"></p>
 
-            <div class="hero__actions" data-role="hero-category-links"></div>
-
-            <div class="stat-row" data-role="site-stats"></div>
+            <div class="hero__actions">
+              <a class="button-primary" href="#software">浏览作品分类</a>
+              <a class="button-secondary" href="#featured">查看作品文章</a>
+            </div>
           </div>
 
-          <aside class="hero__visual">
-            <div class="visual-card visual-card--primary">
-              <span class="visual-card__label">Current Focus</span>
-              <strong>Worldbuilding / Realtime / Tooling</strong>
-              <p>以场景叙事、交互原型与创作工具为主线，持续搭建个人作品生态。</p>
+          <aside class="intro-hero__side">
+            <div class="info-block">
+              <span class="info-label">README INTRO</span>
+              <ul class="profile-list" data-role="profile-list"></ul>
             </div>
-            <div class="visual-card visual-card--secondary">
-              <span class="visual-card__label">Preview</span>
-              <ul class="stacked-list" data-role="preview-list"></ul>
+            <div class="info-block">
+              <span class="info-label">ARCHIVE NOTE</span>
+              <p data-role="profile-focus"></p>
             </div>
+            <div class="metric-row" data-role="archive-metrics"></div>
           </aside>
         </section>
 
-        <section class="section" id="software">
+        <section class="section section--airy" id="software" data-reveal>
           <div class="section-heading">
             <div>
-              <p class="eyebrow">SOFTWARE CHANNELS</p>
-              <h2>按软件分类进入作品集</h2>
+              <p class="eyebrow">SOFTWARE CLASSIFICATION</p>
+              <h2>按软件分类浏览作品文章</h2>
             </div>
             <p class="section-heading__text">
-              先从大类切入，再在里面看每个项目的概览和详情页占位。
+              分类顺序保持为 Blender、Fusion360、UE、Unity、Code，
+              先看分类，再进入对应文章页面。
             </p>
           </div>
 
           <div class="software-grid" data-role="category-grid"></div>
         </section>
 
-        <section class="section" id="featured">
+        <section class="section section--airy" id="featured" data-reveal>
           <div class="section-heading">
             <div>
-              <p class="eyebrow">SELECTED WORKS</p>
-              <h2>首页精选作品</h2>
+              <p class="eyebrow">ARTICLE PREVIEW</p>
+              <h2>作品文章预览</h2>
             </div>
             <p class="section-heading__text">
-              这里先放几个代表性项目，方便后续继续补图和补完整文案。
+              作品集内容和框架暂时不改，先保留现有文章概览与详情占位。
             </p>
           </div>
 
@@ -95,8 +96,8 @@
       </main>
 
       <footer class="footer panel">
-        <p>HZA Portfolio Framework</p>
-        <p>当前版本以结构搭建为主，后续可以继续补人物介绍、联系方式、真实项目图与更完整文案。</p>
+        <p>HZA Portfolio v0.1.1</p>
+        <p>当前版本重点是黑白首页重构、个人介绍前置、整体留白拉开与渐显动画。</p>
       </footer>
     </div>
 
