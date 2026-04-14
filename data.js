@@ -3,8 +3,24 @@
     site: {
       title: "HZA Portfolio",
       brand: "HZA Gaming",
+      version: "0.1.1",
+      person: "Charlie Zhong",
+      lead: "Unity / Unreal Developer · 3D Artist · Web Developer",
+      tagline:
+        "Founder of Hanazar Software · Middle School Student · Open Source Developer · AI | Game Design",
       summary:
-        "以 Blender、Fusion360、UE、Unity 与 Code 为主轴，收纳个人场景、工具、游戏与数字生命相关作品。",
+        "我是 Charlie Zhong，目前以 Unity / Unreal、3D 场景、Web 与开源创作为主，这个网站先作为我的个人介绍和作品文章档案。",
+      focus:
+        "我主要围绕游戏开发、3D 场景、网页与工具搭建持续创作，也会把数字生命、世界构建和流程设计放进同一个作品档案里。",
+      profile: [
+        "Unity / Unreal Developer",
+        "3D Artist",
+        "Web Developer",
+        "Founder of Hanazar Software",
+        "Middle School Student",
+        "Open Source Developer",
+        "AI | Game Design",
+      ],
     },
     featured: [
       { category: "blender", project: "lost-wasteland-city" },
