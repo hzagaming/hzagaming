@@ -66,6 +66,10 @@
     return new URLSearchParams(window.location.search).get(key);
   }
 
+  function setDocumentTitle(title) {
+    document.title = title + " | HZA Portfolio v" + (site.version || "0.1.0");
+  }
+
   function setTheme() {
     document.documentElement.style.setProperty("--accent", "#ffffff");
     document.documentElement.style.setProperty("--accent-soft", "#b8b8b8");
@@ -94,6 +98,40 @@
       "</span>" +
       "</div>"
     );
+  }
+
+  function renderEmptyState(root, title, text, linkLabel, linkHref) {
+    root.innerHTML =
+      '<section class="panel empty-state" data-reveal>' +
+      "<h1>" +
+      title +
+      "</h1>" +
+      "<p>" +
+      text +
+      "</p>" +
+      '<div class="hero__actions"><a class="chip-link" href="' +
+      linkHref +
+      '">' +
+      linkLabel +
+      "</a></div>" +
+      "</section>";
+  }
+
+  function configureProjectBackLink(category) {
+    var backLink = document.querySelector('[data-role="context-back-link"]');
+
+    if (!backLink) {
+      return;
+    }
+
+    if (category) {
+      backLink.href = "category.html?category=" + category.slug;
+      backLink.textContent = "返回 " + category.name;
+      return;
+    }
+
+    backLink.href = "index.html";
+    backLink.textContent = "返回首页";
   }
 
   function createProjectCard(entry) {
@@ -172,6 +210,8 @@
     var categoryGrid = document.querySelector('[data-role="category-grid"]');
     var featuredGrid = document.querySelector('[data-role="featured-grid"]');
 
+    setDocumentTitle(site.title || "HZA Portfolio");
+
     if (homeTitle) {
       homeTitle.innerHTML =
         site.person + ' / <span class="text-gradient">' + site.brand + "</span>";
@@ -227,12 +267,24 @@
     var category = findCategory(categorySlug);
     var root = document.querySelector('[data-role="category-root"]');
 
-    if (!root || !category) {
+    if (!root) {
+      return;
+    }
+
+    if (!category) {
+      setDocumentTitle("分类不存在");
+      renderEmptyState(
+        root,
+        "分类不存在",
+        "当前没有找到这个分类。你可以先回到首页，再从分类入口重新进入。",
+        "返回首页",
+        "index.html"
+      );
       return;
     }
 
     setTheme();
-    document.title = category.name + " | HZA Portfolio v" + site.version;
+    setDocumentTitle(category.name);
 
     root.innerHTML =
       '<section class="category-hero panel" data-reveal>' +
@@ -320,12 +372,15 @@
     }
 
     if (!found) {
-      root.innerHTML =
-        '<section class="panel empty-state" data-reveal>' +
-        "<h1>文章不存在</h1>" +
-        "<p>当前没有找到这篇文章，你可以先回到首页或分类页继续浏览。</p>" +
-        '<div class="hero__actions"><a class="chip-link" href="index.html">返回首页</a></div>' +
-        "</section>";
+      setDocumentTitle("文章不存在");
+      renderEmptyState(
+        root,
+        "文章不存在",
+        "当前没有找到这篇文章，你可以先回到首页或分类页继续浏览。",
+        "返回首页",
+        "index.html"
+      );
+      configureProjectBackLink(null);
       return;
     }
 
@@ -344,7 +399,8 @@
     siblings = siblings.slice(0, 3);
 
     setTheme();
-    document.title = project.title + " | HZA Portfolio v" + site.version;
+    setDocumentTitle(project.title);
+    configureProjectBackLink(category);
 
     root.innerHTML =
       '<section class="project-hero panel" data-reveal>' +
