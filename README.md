@@ -51,7 +51,7 @@
 
 <a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
 <img src="https://img.shields.io/badge/LinkedIn-grey?style=flat-square&logo=linkedin&logoColor=white">
-<img src="https://img.shields.io/badge/4.5k-0A66C2?style=flat-square">
+<img src="https://img.shields.io/badge/5.5k-0A66C2?style=flat-square">
 </a>
 
 
