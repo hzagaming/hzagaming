@@ -15,8 +15,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      (function () {
+        var t = setTimeout(function () {
+          var loader = document.querySelector('[data-role="page-loader"]');
+          if (loader) {
+            loader.classList.add("is-hidden");
+            setTimeout(function () {
+              loader.style.display = "none";
+            }, 500);
+          }
+        }, 8000);
+        window.__hideLoaderTimeout = t;
+      })();
+    </script>
   </head>
   <body data-page="home">
+    <div class="page-loader" data-role="page-loader" aria-hidden="true">
+      <div class="page-loader__spinner"></div>
+    </div>
+
+    <div class="scroll-progress" data-role="scroll-progress" aria-hidden="true"></div>
+
     <div class="background-orb orb-a"></div>
     <div class="background-orb orb-b"></div>
     <div class="background-grid"></div>
@@ -93,12 +113,36 @@
 
           <div class="featured-grid" data-role="featured-grid"></div>
         </section>
+
+        <section class="section section--airy" id="changelog" data-reveal>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">UPDATE LOG</p>
+              <h2>版本公告</h2>
+            </div>
+            <p class="section-heading__text">
+              记录每次迭代的重点改动、Bug 修复与新功能上线。
+            </p>
+          </div>
+          <div class="changelog-panel" data-role="changelog-root"></div>
+        </section>
       </main>
 
       <footer class="footer panel">
-        <p>HZA Portfolio v0.1.1.1</p>
-        <p>当前版本重点是黑白首页重构、个人介绍前置、整体留白拉开与渐显动画。</p>
+        <p data-role="footer-version"></p>
+        <p>当前版本重点是 UI/UX 全面打磨、SFX/BGM 深度修复与公告系统上线。</p>
       </footer>
+    </div>
+
+    <button class="back-to-top" data-role="back-to-top" aria-label="回到顶部" title="回到顶部">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <div class="audio-panel" data-role="audio-panel" role="group" aria-label="音频控制">
+      <button data-role="audio-sfx-toggle" aria-pressed="true" title="切换音效">音效：开</button>
+      <button data-role="audio-bgm-toggle" aria-pressed="false" title="切换背景音乐">BGM：关</button>
     </div>
 
     <script src="data.js"></script>
