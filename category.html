@@ -15,8 +15,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      (function () {
+        var t = setTimeout(function () {
+          var loader = document.querySelector('[data-role="page-loader"]');
+          if (loader) {
+            loader.classList.add("is-hidden");
+            setTimeout(function () {
+              loader.style.display = "none";
+            }, 500);
+          }
+        }, 8000);
+        window.__hideLoaderTimeout = t;
+      })();
+    </script>
   </head>
   <body data-page="category">
+    <div class="page-loader" data-role="page-loader" aria-hidden="true">
+      <div class="page-loader__spinner"></div>
+    </div>
+
+    <div class="scroll-progress" data-role="scroll-progress" aria-hidden="true"></div>
+
     <div class="background-orb orb-a"></div>
     <div class="background-orb orb-b"></div>
     <div class="background-grid"></div>
@@ -38,9 +58,20 @@
       <main data-role="category-root"></main>
 
       <footer class="footer panel">
+        <p data-role="footer-version"></p>
         <p>分类页展示当前软件方向下的作品文章。</p>
-        <p>后面可以继续追加图片、视频、过程记录、时间线和外链。</p>
       </footer>
+    </div>
+
+    <button class="back-to-top" data-role="back-to-top" aria-label="回到顶部" title="回到顶部">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <div class="audio-panel" data-role="audio-panel" role="group" aria-label="音频控制">
+      <button data-role="audio-sfx-toggle" aria-pressed="true" title="切换音效">音效：开</button>
+      <button data-role="audio-bgm-toggle" aria-pressed="false" title="切换背景音乐">BGM：关</button>
     </div>
 
     <script src="data.js"></script>

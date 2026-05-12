@@ -15,8 +15,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      (function () {
+        var t = setTimeout(function () {
+          var loader = document.querySelector('[data-role="page-loader"]');
+          if (loader) {
+            loader.classList.add("is-hidden");
+            setTimeout(function () {
+              loader.style.display = "none";
+            }, 500);
+          }
+        }, 8000);
+        window.__hideLoaderTimeout = t;
+      })();
+    </script>
   </head>
   <body data-page="project">
+    <div class="page-loader" data-role="page-loader" aria-hidden="true">
+      <div class="page-loader__spinner"></div>
+    </div>
+
+    <div class="scroll-progress" data-role="scroll-progress" aria-hidden="true"></div>
+
     <div class="background-orb orb-a"></div>
     <div class="background-orb orb-b"></div>
     <div class="background-grid"></div>
@@ -31,7 +51,7 @@
           <span class="version-badge" data-role="version-badge"></span>
           <nav class="topbar__nav">
             <a href="index.html">返回首页</a>
-            <a href="index.html" data-role="context-back-link">返回分类</a>
+            <a href="category.html" data-role="context-back-link">返回分类</a>
           </nav>
         </div>
       </header>
@@ -39,9 +59,20 @@
       <main data-role="project-root"></main>
 
       <footer class="footer panel">
+        <p data-role="footer-version"></p>
         <p>文章详情页已预留图片与展示区。</p>
-        <p>后面把缩略图、海报图、过程图和更多介绍补进去，就能继续扩展。</p>
       </footer>
+    </div>
+
+    <button class="back-to-top" data-role="back-to-top" aria-label="回到顶部" title="回到顶部">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <div class="audio-panel" data-role="audio-panel" role="group" aria-label="音频控制">
+      <button data-role="audio-sfx-toggle" aria-pressed="true" title="切换音效">音效：开</button>
+      <button data-role="audio-bgm-toggle" aria-pressed="false" title="切换背景音乐">BGM：关</button>
     </div>
 
     <script src="data.js"></script>

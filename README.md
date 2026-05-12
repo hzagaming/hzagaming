@@ -115,7 +115,7 @@ Kali Linux/SW Databases
 <img src="https://img.shields.io/badge/GitHub-hzagaming-black?style=for-the-badge&logo=github">
 </a>
 
-<a href="[https://linkedin.com](https://www.linkedin.com/in/charlie-zhong-1776ba336/)">
+<a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
 <img src="https://img.shields.io/badge/LinkedIn-Charlie-blue?style=for-the-badge&logo=linkedin">
 </a>
 </p>
