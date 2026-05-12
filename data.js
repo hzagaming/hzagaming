@@ -3,7 +3,7 @@
     site: {
       title: "HZA Portfolio",
       brand: "HZA Gaming",
-      version: "0.2.1",
+      version: "0.2.2",
       person: "Charlie Zhong",
       lead: "Unity / Unreal Developer · 3D Artist · Web Developer",
       tagline:
