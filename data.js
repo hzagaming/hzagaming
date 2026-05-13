@@ -3,7 +3,7 @@
     site: {
       title: "HZA Portfolio",
       brand: "HZA Gaming",
-      version: "0.2.2",
+      version: "0.2.3",
       person: "Charlie Zhong",
       lead: "Unity / Unreal Developer · 3D Artist · Web Developer",
       tagline:
@@ -24,7 +24,7 @@
     },
     changelog: [
       {
-        version: "0.2.2",
+        version: "0.2.3",
         date: "2025-05-12",
         title: "UI/UX/SFX/BGM 全面打磨与深度修复",
         items: [
