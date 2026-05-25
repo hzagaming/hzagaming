@@ -889,6 +889,15 @@ p {
   border-color: rgba(255, 255, 255, 0.25);
 }
 
+.audio-panel--unsupported {
+  opacity: 0.72;
+}
+
+.audio-panel button:disabled {
+  cursor: not-allowed;
+  color: rgba(255, 255, 255, 0.38);
+}
+
 /* ========== 外部链接标识 ========== */
 a[href^="http"]::after {
   content: "↗";

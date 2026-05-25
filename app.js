@@ -18,13 +18,17 @@
     bgmEnabled: false,
     bgmNodes: null,
     masterGain: null,
+    audioSupported: true,
     _lastHover: 0,
     _lastClick: 0,
     _bgmChannel: null,
 
     init: function () {
       var AC = window.AudioContext || window.webkitAudioContext;
-      if (!AC) return false;
+      if (!AC) {
+        this.audioSupported = false;
+        return false;
+      }
       try {
         this.ctx = new AC();
         this.masterGain = this.ctx.createGain();
@@ -34,6 +38,7 @@
         this._loadPrefs();
         return true;
       } catch (e) {
+        this.audioSupported = false;
         return false;
       }
     },
@@ -185,30 +190,27 @@
 
     stopBGM: function () {
       if (!this.bgmNodes) return;
+      var nodes = this.bgmNodes;
+      this.bgmNodes = null;
+      this.bgmEnabled = false;
+
       var t = this.ctx ? this.ctx.currentTime : 0;
       var ramp = 2;
-      this.bgmNodes.master.gain.cancelScheduledValues(t);
-      this.bgmNodes.master.gain.setValueAtTime(
-        this.bgmNodes.master.gain.value,
-        t
-      );
-      this.bgmNodes.master.gain.linearRampToValueAtTime(0.0001, t + ramp);
+      nodes.master.gain.cancelScheduledValues(t);
+      nodes.master.gain.setValueAtTime(nodes.master.gain.value, t);
+      nodes.master.gain.linearRampToValueAtTime(0.0001, t + ramp);
 
       setTimeout(
         function () {
-          if (!this.bgmNodes) return;
-          this.bgmNodes.oscillators.forEach(function (o) {
+          nodes.oscillators.forEach(function (o) {
             try {
               o.osc.stop();
               o.lfo.stop();
             } catch (e) {}
           });
-          this.bgmNodes = null;
-        }.bind(this),
+        },
         ramp * 1000 + 100
       );
-
-      this.bgmEnabled = false;
     },
 
     toggleBGM: function () {
@@ -1019,10 +1021,26 @@
     var sfxBtn = document.querySelector('[data-role="audio-sfx-toggle"]');
     var bgmBtn = document.querySelector('[data-role="audio-bgm-toggle"]');
     if (!panel) return;
+    AudioEngine._loadPrefs();
+
+    if (!window.AudioContext && !window.webkitAudioContext) {
+      AudioEngine.audioSupported = false;
+      panel.setAttribute("aria-disabled", "true");
+      panel.classList.add("audio-panel--unsupported");
+      if (sfxBtn) {
+        sfxBtn.disabled = true;
+        sfxBtn.textContent = "音效不可用";
+      }
+      if (bgmBtn) {
+        bgmBtn.disabled = true;
+        bgmBtn.textContent = "BGM不可用";
+      }
+      return;
+    }
 
     function initAudio() {
       if (!AudioEngine.ctx) {
-        AudioEngine.init();
+        if (!AudioEngine.init()) return;
       } else {
         AudioEngine.ensureContext();
       }
@@ -1070,15 +1088,24 @@
     var loader = document.querySelector('[data-role="page-loader"]');
     if (!loader) return;
     if (window.__hideLoaderTimeout) clearTimeout(window.__hideLoaderTimeout);
-    window.addEventListener("load", function () {
+
+    function hideLoader() {
       loader.classList.add("is-hidden");
       setTimeout(function () {
         loader.style.display = "none";
       }, 500);
-    });
+    }
+
+    if (document.readyState === "complete") {
+      hideLoader();
+      return;
+    }
+
+    window.addEventListener("load", hideLoader, { once: true });
   }
 
   function initReducedMotion() {
+    if (!window.matchMedia) return;
     var mql = window.matchMedia("(prefers-reduced-motion: reduce)");
     reducedMotion = mql.matches;
     if (mql.addEventListener) {
@@ -1125,6 +1152,7 @@
     renderProject();
   }
 
+  initSectionHighlight();
   activateRevealAnimations();
 
   initSfxBindings();

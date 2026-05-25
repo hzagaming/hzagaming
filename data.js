@@ -3,7 +3,7 @@
     site: {
       title: "HZA Portfolio",
       brand: "HZA Gaming",
-      version: "0.2.3",
+      version: "0.2.4",
       person: "Charlie Zhong",
       lead: "Unity / Unreal Developer · 3D Artist · Web Developer",
       tagline:
@@ -23,6 +23,21 @@
       ],
     },
     changelog: [
+      {
+        version: "0.2.4",
+        date: "2026-05-24",
+        title: "UI/UX/SFX/BGM 深度巡检与稳定性修复",
+        items: [
+          "修复音频偏好在 AudioContext 初始化前未同步到按钮的问题",
+          "修复保存过 BGM 开启偏好时首次点击可能表现反向的问题",
+          "修复 BGM 关闭淡出期间无法立刻重新开启的问题",
+          "修复 page-loader 在脚本初始化晚于 window load 时可能不消失的问题",
+          "修复首页导航高亮逻辑已实现但未初始化的问题",
+          "添加无 AudioContext 环境下的音频控制面板降级状态",
+          "补充 reduced-motion 初始化的旧浏览器保护",
+          "重新深查首页、分类页、详情页的新增交互初始化顺序",
+        ],
+      },
       {
         version: "0.2.3",
         date: "2025-05-12",
