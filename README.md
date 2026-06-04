@@ -69,15 +69,15 @@
 
 
 ---
-Unity/Unreal Developer
+Unity/Unreal/Godot Game Developer
 </p>
-3D Artist
+3DCG Art/CGA/CGI
 </p>
-Web developer
+Web/Software/IOS/MacOS developer
 </p>
-Founder of Hanazar Software
+Founder of Hanazar Software/Hanazar Games
 </p>
-Kali Linux/SW Databases
+Kali Linux/Databases/Hacking Tools
 </p>
 ---
 
@@ -85,7 +85,7 @@ Kali Linux/SW Databases
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=unity,unreal,blender,cs,c,cpp,java,php,swift,py,lua,js,ts,html,css,nodejs,express,nextjs,vue,react,vite,threejs,tailwind,docker,git,github,vscode,visualstudio,kali,notion,ae,ps,xcode,terminal" />
+    <img src="https://skillicons.dev/icons?i=unity,unreal,blender,cs,c,cpp,java,php,swift,py,lua,js,ts,html,css,nodejs,express,nextjs,vue,react,vite,threejs,tailwind,docker,git,github,vscode,visualstudio,kali,notion,ae,ps,xcode,terminal,cg" />
   </a>
 </p>
 
