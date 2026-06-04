@@ -3,7 +3,7 @@
     site: {
       title: "HZA Portfolio",
       brand: "HZA Gaming",
-      version: "0.2.4",
+      version: "0.3.0",
       person: "Charlie Zhong",
       lead: "Unity / Unreal Developer · 3D Artist · Web Developer",
       tagline:
@@ -23,6 +23,19 @@
       ],
     },
     changelog: [
+      {
+        version: "0.3.0",
+        date: "2026-06-04",
+        title: "作品集 UI/UX 重构与音频状态修复",
+        items: [
+          "重做首页、分类卡片与文章卡片的视觉层级",
+          "添加分类与文章的视觉识别区，提升作品浏览的节奏感",
+          "让分类卡片和文章卡片整块可点击，减少浏览时的精确点击成本",
+          "优化移动端布局、按钮触控面积与长文本换行",
+          "修复保存过 BGM 开启偏好时首次点击按钮可能反向切换的问题",
+          "收紧面板圆角、阴影和背景层次，让整体更像作品集产品页",
+        ],
+      },
       {
         version: "0.2.4",
         date: "2026-05-24",

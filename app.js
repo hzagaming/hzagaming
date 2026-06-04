@@ -16,6 +16,7 @@
     ctx: null,
     sfxEnabled: true,
     bgmEnabled: false,
+    bgmPreferred: false,
     bgmNodes: null,
     masterGain: null,
     audioSupported: true,
@@ -48,8 +49,8 @@
         this._bgmChannel = new BroadcastChannel("hza_bgm");
         this._bgmChannel.onmessage = function (e) {
           if (e.data && e.data.action === "claim" && this.bgmEnabled) {
-            this.stopBGM();
-            this._syncBGMBtn(false);
+            this.stopBGM({ keepPreference: true });
+            this._syncBGMBtn(false, this.bgmPreferred);
           }
         }.bind(this);
       } else {
@@ -57,8 +58,8 @@
           "storage",
           function (e) {
             if (e.key === "hza_bgm_claim" && this.bgmEnabled) {
-              this.stopBGM();
-              this._syncBGMBtn(false);
+              this.stopBGM({ keepPreference: true });
+              this._syncBGMBtn(false, this.bgmPreferred);
             }
           }.bind(this)
         );
@@ -74,11 +75,15 @@
       } catch (e) {}
     },
 
-    _syncBGMBtn: function (enabled) {
+    _syncBGMBtn: function (enabled, preferred) {
       var bgmBtn = document.querySelector('[data-role="audio-bgm-toggle"]');
       if (bgmBtn) {
         bgmBtn.setAttribute("aria-pressed", String(enabled));
-        bgmBtn.textContent = enabled ? "BGM：开" : "BGM：关";
+        bgmBtn.textContent = enabled
+          ? "BGM：开"
+          : preferred
+            ? "BGM：待播放"
+            : "BGM：关";
       }
     },
 
@@ -132,6 +137,7 @@
     },
 
     startBGM: function () {
+      this.bgmPreferred = true;
       if (!this.ctx || this.bgmNodes) return;
       this.ensureContext();
       this._claimBGM();
@@ -188,8 +194,14 @@
       this.bgmEnabled = true;
     },
 
-    stopBGM: function () {
-      if (!this.bgmNodes) return;
+    stopBGM: function (options) {
+      if (!options || options.keepPreference !== true) {
+        this.bgmPreferred = false;
+      }
+      if (!this.bgmNodes) {
+        this.bgmEnabled = false;
+        return;
+      }
       var nodes = this.bgmNodes;
       this.bgmNodes = null;
       this.bgmEnabled = false;
@@ -235,7 +247,8 @@
         if (raw) {
           var prefs = JSON.parse(raw);
           this.sfxEnabled = prefs.sfx !== false;
-          this.bgmEnabled = prefs.bgm === true;
+          this.bgmPreferred = prefs.bgm === true;
+          this.bgmEnabled = false;
         }
       } catch (e) {}
     },
@@ -244,7 +257,7 @@
       try {
         localStorage.setItem(
           "hza_audio_prefs",
-          JSON.stringify({ sfx: this.sfxEnabled, bgm: this.bgmEnabled })
+          JSON.stringify({ sfx: this.sfxEnabled, bgm: this.bgmPreferred })
         );
       } catch (e) {}
     },
@@ -358,6 +371,18 @@
     );
   }
 
+  function getInitials(text) {
+    return String(text || "")
+      .split(/\s+/)
+      .filter(Boolean)
+      .map(function (part) {
+        return part.charAt(0);
+      })
+      .join("")
+      .slice(0, 3)
+      .toUpperCase();
+  }
+
   function renderEmptyState(root, title, text, linkLabel, linkHref) {
     root.innerHTML =
       '<section class="panel empty-state" data-reveal>' +
@@ -395,7 +420,16 @@
     var project = entry.project;
     var tags = (project.tags || []).slice(0, 3);
     return (
-      '<article class="project-card panel" data-reveal>' +
+      '<article class="project-card panel" style="--card-accent:' +
+      escapeHtml(category.accent || "#ffffff") +
+      '" data-reveal>' +
+      '<div class="project-card__visual" aria-hidden="true">' +
+      '<span class="visual-token">' +
+      escapeHtml(getInitials(project.title)) +
+      "</span>" +
+      '<span class="visual-line visual-line--wide"></span>' +
+      '<span class="visual-line"></span>' +
+      "</div>" +
       '<div class="project-card__meta">' +
       createBadge(category.name, "soft-badge") +
       createBadge(project.status, "status-badge") +
@@ -420,6 +454,8 @@
       encodeURIComponent(category.slug) +
       "&project=" +
       encodeURIComponent(project.slug) +
+      '" aria-label="阅读全文：' +
+      escapeHtml(project.title) +
       '">阅读全文</a>' +
       "</article>"
     );
@@ -427,9 +463,20 @@
 
   function createCategoryCard(category) {
     return (
-      '<article class="software-card panel" data-reveal>' +
+      '<article class="software-card panel" style="--card-accent:' +
+      escapeHtml(category.accent || "#ffffff") +
+      '" data-reveal>' +
+      '<div class="software-card__visual" aria-hidden="true">' +
+      '<span class="visual-token">' +
+      escapeHtml(getInitials(category.name)) +
+      "</span>" +
+      '<span class="visual-stack visual-stack--a"></span>' +
+      '<span class="visual-stack visual-stack--b"></span>' +
+      "</div>" +
       '<div class="software-card__header">' +
-      '<p class="software-card__kicker">SOFTWARE CATEGORY</p>' +
+      '<p class="software-card__kicker">' +
+      escapeHtml(category.kicker || "SOFTWARE CATEGORY") +
+      "</p>" +
       createBadge(countProjects(category) + " 篇文章", "tag") +
       "</div>" +
       "<h3>" +
@@ -448,6 +495,8 @@
       "</div>" +
       '<a class="card-link" href="category.html?category=' +
       encodeURIComponent(category.slug) +
+      '" aria-label="进入分类：' +
+      escapeHtml(category.name) +
       '">进入分类</a>' +
       "</article>"
     );
@@ -1038,14 +1087,31 @@
       return;
     }
 
-    function initAudio() {
+    function syncBGMButton() {
+      AudioEngine._syncBGMBtn(
+        AudioEngine.bgmEnabled,
+        AudioEngine.bgmPreferred
+      );
+    }
+
+    function initAudio(e) {
+      var fromAudioPanel =
+        e &&
+        e.target &&
+        e.target.closest &&
+        e.target.closest('[data-role="audio-panel"]');
       if (!AudioEngine.ctx) {
         if (!AudioEngine.init()) return;
       } else {
         AudioEngine.ensureContext();
       }
-      if (AudioEngine.bgmEnabled && !AudioEngine.bgmNodes) {
+      if (
+        AudioEngine.bgmPreferred &&
+        !AudioEngine.bgmEnabled &&
+        !fromAudioPanel
+      ) {
         AudioEngine.startBGM();
+        syncBGMButton();
       }
       document.removeEventListener("click", initAudio, true);
       document.removeEventListener("keydown", initAudioKey, true);
@@ -1073,13 +1139,11 @@
     }
 
     if (bgmBtn) {
-      bgmBtn.setAttribute("aria-pressed", String(AudioEngine.bgmEnabled));
-      bgmBtn.textContent = AudioEngine.bgmEnabled ? "BGM：开" : "BGM：关";
+      syncBGMButton();
       bgmBtn.addEventListener("click", function (e) {
         e.stopPropagation();
-        var enabled = AudioEngine.toggleBGM();
-        bgmBtn.setAttribute("aria-pressed", String(enabled));
-        bgmBtn.textContent = enabled ? "BGM：开" : "BGM：关";
+        AudioEngine.toggleBGM();
+        syncBGMButton();
       });
     }
   }
