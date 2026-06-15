@@ -77,8 +77,7 @@ Web/Software/IOS/MacOS developer
 </p>
 Founder of Hanazar Software/Hanazar Games
 </p>
-Kali Linux/Databases/Hacking Tools
-</p>
+K**i/So**** E*********...
 ---
 
 # Tech Stack
