@@ -74,7 +74,7 @@ Web/Software/IOS/MacOS developer
 </p>
 Founder of Hanazar Software/Hanazar Games
 </p>
-K**i/So**** E*********...
+Shanghai Mirako Technologies Full Stack Developer
 ---
 
 # Tech Stack
