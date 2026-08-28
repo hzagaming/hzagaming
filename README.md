@@ -79,9 +79,10 @@ Shanghai Mirako Technologies, Full Stack Developer
 
 # Tech Stack
 
+
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=unity,unreal,blender,cs,c,cpp,java,php,swift,py,lua,js,ts,html,css,nodejs,express,nextjs,vue,react,vite,threejs,tailwind,docker,git,github,vscode,visualstudio,kali,notion,ae,ps,xcode,terminal,cg" />
+    <img src="https://skillicons.dev/icons?i=unity,unreal,godot,blender,cs,c,cpp,rust,java,php,swift,py,lua,js,ts,html,css,nodejs,express,nextjs,vue,react,vite,threejs,tailwind,sqlite,docker,git,github,cmake,vscode,visualstudio,xcode,linux,arch,bash,powershell,apple,windows,kali,notion,ae,ps,terminal,cg" />
   </a>
 </p>
 
