@@ -72,9 +72,9 @@ Unity/Unreal/Godot Game Developer
 </p>
 Web/Software/IOS/MacOS developer
 </p>
-Founder of Hanazar Software/Hanazar Games
+Founder of Hanazar Software & Hanazar Games
 </p>
-Shanghai Mirako Technologies Full Stack Developer
+Shanghai Mirako Technologies, Full Stack Developer
 ---
 
 # Tech Stack
@@ -100,7 +100,7 @@ Shanghai Mirako Technologies Full Stack Developer
 </a>
 </p>
 
-17358677225@163.com
+zlc.sg@proton.me
 </p>
 zlc.sg@outlook.com
 
