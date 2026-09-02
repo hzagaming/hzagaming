@@ -2,9 +2,8 @@
 
 <!-- TYPING -->
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=Unity+%7c+Unreal+Game+Developer;Founder+of+Hanazar+Software;Middle+School+Student;Open+Source+Developer;AI+%7C+Game+Design&center=true&size=25">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Game+Developer;Founder+of+Hanazar+Software;Middle+School+Student;Open+Source+Developer;AI+%7C+Game+Design&center=true&size=25">
 </p>
-
 
 
 
@@ -18,12 +17,12 @@
 
 <a href="https://space.bilibili.com/3546876651505748">
 <img src="https://img.shields.io/badge/Bilibili-grey?style=flat-square&logo=bilibili&logoColor=white">
-<img src="https://img.shields.io/badge/4.1k-00A1D6?style=flat-square">
+<img src="https://img.shields.io/badge/5.1k-00A1D6?style=flat-square">
 </a>
 
 <a href="https://www.youtube.com/@hanazarochikawa">
 <img src="https://img.shields.io/badge/Youtube-grey?style=flat-square&logo=youtube&logoColor=white">
-<img src="https://img.shields.io/badge/34-FF0000?style=flat-square">
+<img src="https://img.shields.io/badge/0.3k-FF0000?style=flat-square">
 </a>
 
 <a href="https://www.tiktok.com/@hanazarochikawa">
@@ -33,22 +32,22 @@
 
 <a href="https://www.douyin.com/user/MS4wLjABAAAAFLfyCAfzJutkGc1zmzXljaj2hQTdl0XHdk4mk3wwH5zn7OfK0FRyI_paLQFm_GcC">
 <img src="https://img.shields.io/badge/Douyin-grey?style=flat-square&logo=tiktok&logoColor=white">
-<img src="https://img.shields.io/badge/2.2k-FF2C55?style=flat-square">
+<img src="https://img.shields.io/badge/2.5k-FF2C55?style=flat-square">
 </a>
 
 <a href="https://v.kuaishou.com/KAjukbzt">
 <img src="https://img.shields.io/badge/Kuaishou-grey?style=flat-square">
-<img src="https://img.shields.io/badge/0.7k-FF4906?style=flat-square">
+<img src="https://img.shields.io/badge/1.0k-FF4906?style=flat-square">
 </a>
 
 <a href="https://xhslink.com/m/1pkKOki7Qu3">
 <img src="https://img.shields.io/badge/Rednote-grey?style=flat-square">
-<img src="https://img.shields.io/badge/11.9k-FF2442?style=flat-square">
+<img src="https://img.shields.io/badge/12.9k-FF2442?style=flat-square">
 </a>
 
 <a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
 <img src="https://img.shields.io/badge/LinkedIn-grey?style=flat-square&logo=linkedin&logoColor=white">
-<img src="https://img.shields.io/badge/6.7k-0A66C2?style=flat-square">
+<img src="https://img.shields.io/badge/9.1k-0A66C2?style=flat-square">
 </a>
 
 
