@@ -1,27 +1,4 @@
 
-<!-- markdownlint-disable -->
-
-<!-- rakuzen25-style layout, customized for hzagaming -->
-[<img align="left" width="390" alt="GitHub stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hzagaming&theme=tokyonight" />](https://github.com/hzagaming)
-[<img align="right" width="390" alt="GitHub achievements" src="https://github-profile-trophy.vercel.app/?username=hzagaming&theme=tokyonight&no-frame=true&column=2&row=2" />](https://github.com/hzagaming)
-
-[<img width="100%" height="0" alt="Empty" src="https://gist.githubusercontent.com/rakuzen25/6e37a4897e4b51f1b7090a4167cc33b4/raw/empty.svg" />](#)
-
-[<img align="left" width="390" alt="ClassGod" src="https://github-readme-stats.vercel.app/api/pin/?username=hzagaming&repo=ClassGod&theme=tokyonight&hide_border=true" />](https://github.com/hzagaming/ClassGod)
-[<img align="right" width="390" alt="LC300A" src="https://github-readme-stats.vercel.app/api/pin/?username=hzagaming&repo=LC300A&theme=tokyonight&hide_border=true" />](https://github.com/hzagaming/LC300A)
-
-[<img width="100%" height="0" alt="Empty" src="https://gist.githubusercontent.com/rakuzen25/6e37a4897e4b51f1b7090a4167cc33b4/raw/empty.svg" />](#)
-
-[<img align="right" width="300" alt="Visitor count" src="https://count.getloli.com/get/@hzagaming?theme=rule34" />](#)
-
-
-<!-- TYPING -->
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=Game+Developer;Founder+of+Hanazar+Software;Middle+School+Student;Open+Source+Developer;AI+%7C+Game+Design&center=true&size=25">
-</p>
-
-
-
 <p align="center">
 
 <a href="https://linktr.ee/hanazarochikawa">
