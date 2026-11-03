@@ -1,94 +1,81 @@
 
-<!-- HANAZAR GITHUB PROFILE -->
-<!-- Inspired by rakuzen25's two-column layout -->
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=650&lines=Hello%2C+I'm+Hanazar;Game+Developer+%26+Software+Engineer;Founder+of+Hanazar+Software;Open+Source+Developer;Building+Things+I+Love" alt="Typing SVG" />
-
-<p>
-  <b>Game Development · Software Engineering · Creative Technology</b>
+<!-- TYPING -->
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Game+Developer;Founder+of+Hanazar+Software;Middle+School+Student;Open+Source+Developer;AI+%7C+Game+Design&center=true&size=25">
 </p>
 
-<a href="https://hanazargames.com">
-  <img src="https://img.shields.io/badge/Website-Hanazar_Games-70A5FD?style=flat-square&logo=googlechrome&logoColor=white"/>
-</a>
-<a href="https://github.com/hzagaming">
-  <img src="https://img.shields.io/badge/GitHub-hzagaming-181717?style=flat-square&logo=github&logoColor=white"/>
-</a>
+
+
+<p align="center">
+
 <a href="https://linktr.ee/hanazarochikawa">
-  <img src="https://img.shields.io/badge/Linktree-All_Links-39E09B?style=flat-square&logo=linktree&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linktree-grey?style=flat-square&logo=linktree&logoColor=white">
+<img src="https://img.shields.io/badge/ALL%20LINKS-39E09B?style=flat-square">
 </a>
 
-<br/>
+<a href="https://space.bilibili.com/3546876651505748">
+<img src="https://img.shields.io/badge/Bilibili-grey?style=flat-square&logo=bilibili&logoColor=white">
+<img src="https://img.shields.io/badge/5.1k-00A1D6?style=flat-square">
+</a>
 
-<img src="https://komarev.com/ghpvc/?username=hzagaming&label=Profile+Views&color=70A5FD&style=flat-square" alt="Profile Views"/>
+<a href="https://www.youtube.com/@hanazarochikawa">
+<img src="https://img.shields.io/badge/Youtube-grey?style=flat-square&logo=youtube&logoColor=white">
+<img src="https://img.shields.io/badge/0.3k-FF0000?style=flat-square">
+</a>
 
-</div>
+<a href="https://www.tiktok.com/@hanazarochikawa">
+<img src="https://img.shields.io/badge/Tiktok-grey?style=flat-square&logo=tiktok&logoColor=white">
+<img src="https://img.shields.io/badge/30-black?style=flat-square">
+</a>
 
----
+<a href="https://www.douyin.com/user/MS4wLjABAAAAFLfyCAfzJutkGc1zmzXljaj2hQTdl0XHdk4mk3wwH5zn7OfK0FRyI_paLQFm_GcC">
+<img src="https://img.shields.io/badge/Douyin-grey?style=flat-square&logo=tiktok&logoColor=white">
+<img src="https://img.shields.io/badge/2.5k-FF2C55?style=flat-square">
+</a>
 
-<!-- GITHUB STATS -->
-<h2 align="center">GitHub Statistics</h2>
+<a href="https://v.kuaishou.com/KAjukbzt">
+<img src="https://img.shields.io/badge/Kuaishou-grey?style=flat-square">
+<img src="https://img.shields.io/badge/1.0k-FF4906?style=flat-square">
+</a>
 
-<p align="center">
-  <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hzagaming&theme=tokyonight" alt="GitHub Stats"/>
-  <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hzagaming&theme=tokyonight&utcOffset=8" alt="Contribution Activity"/>
+<a href="https://xhslink.com/m/1pkKOki7Qu3">
+<img src="https://img.shields.io/badge/Rednote-grey?style=flat-square">
+<img src="https://img.shields.io/badge/12.9k-FF2442?style=flat-square">
+</a>
+
+<a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
+<img src="https://img.shields.io/badge/LinkedIn-grey?style=flat-square&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/9.1k-0A66C2?style=flat-square">
+</a>
+
+
+
 </p>
 
-<!-- CONTRIBUTION STREAK -->
-<p align="center">
-  <img width="550" src="https://streak-stats.demolab.com/?user=hzagaming&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"/>
-</p>
 
----
 
-<!-- FEATURED PROJECTS -->
-<h2 align="center">Featured Projects</h2>
 
 <p align="center">
-  <a href="https://github.com/hzagaming/ClassGod">
-    <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=hzagaming&repo=ClassGod&theme=tokyonight&hide_border=true" alt="ClassGod"/>
-  </a>
-  <a href="https://github.com/hzagaming/LC300A">
-    <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=hzagaming&repo=LC300A&theme=tokyonight&hide_border=true" alt="LC300A"/>
-  </a>
+<img src="https://komarev.com/ghpvc/?username=hzagaming&label=Profile%20views&color=blue&style=flat" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/hzagaming/HanazarTransfer">
-    <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=hzagaming&repo=HanazarTransfer&theme=tokyonight&hide_border=true" alt="Hanazar Transfer"/>
-  </a>
-  <a href="https://github.com/hzagaming/Hanazar-s-Pen">
-    <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=hzagaming&repo=Hanazar-s-Pen&theme=tokyonight&hide_border=true" alt="Hanazar's Pen"/>
-  </a>
+
+
+
+---
+Unity/Unreal/Godot Game Developer
 </p>
-
+3DCG Art/CGA/CGI
+</p>
+Web/Software/IOS/MacOS developer
+</p>
+Founder of Hanazar Software & Hanazar Games
+</p>
+Shanghai Mirako Technologies, Full Stack Developer
 ---
 
-<!-- ABOUT ME -->
-<h2 align="center">About Me</h2>
+# Tech Stack
 
-<div align="center">
-
-**Founder of Hanazar Software & Hanazar Games**
-
-Game Developer · Full Stack Developer · Open Source Enthusiast
-
-Unity / Unreal / Godot Game Development
-
-3DCG Art / CGA / CGI
-
-Web / Software / iOS / macOS Development
-
-Collaborative Development with Mirako / Paper2Gal
-
-</div>
-
----
-
-<!-- TECH STACK - ORIGINAL VERSION UNCHANGED -->
-<h2 align="center">Tech Stack</h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -96,57 +83,25 @@ Collaborative Development with Mirako / Paper2Gal
   </a>
 </p>
 
----
-
-<!-- LANGUAGES -->
-<h2 align="center">Most Used Languages</h2>
-
-<p align="center">
-  <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hzagaming&theme=tokyonight" alt="Languages by Repositories"/>
-  <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hzagaming&theme=tokyonight" alt="Languages by Commits"/>
-</p>
 
 ---
 
-<!-- SOCIAL MEDIA -->
-<h2 align="center">Connect With Me</h2>
+# Connect
 
 <p align="center">
-
 <a href="https://github.com/hzagaming">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-hzagaming-black?style=for-the-badge&logo=github">
 </a>
 
-<a href="https://hanazargames.com">
-  <img src="https://img.shields.io/badge/Website-70A5FD?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+<a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
+<img src="https://img.shields.io/badge/LinkedIn-Charlie-blue?style=for-the-badge&logo=linkedin">
 </a>
-
-<a href="https://space.bilibili.com/3546876651505748">
-  <img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white"/>
-</a>
-
-<a href="https://www.youtube.com/@hanazarochikawa">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
-
-<a href="https://www.tiktok.com/@hanazarochikawa">
-  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"/>
-</a>
-
-<a href="https://linktr.ee/hanazarochikawa">
-  <img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white"/>
-</a>
-
 </p>
 
-<div align="center">
-
-**Contact:** zlc.sg@proton.me
+zlc.sg@proton.me
+</p>
+zlc.sg@outlook.com
 
 ---
 
-*Building software, creating worlds, and exploring what's possible.*
-
-⭐ **If you like my projects, consider giving them a star!**
-
-</div>
+⭐ If you like my projects, consider giving them a star!
