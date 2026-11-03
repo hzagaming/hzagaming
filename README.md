@@ -59,7 +59,6 @@
 Founder of Hanazar Software & Hanazar Games
 </p>
 Shanghai Mirako Technologies, Full Stack Developer
----
 
 # Tech Stack
 
