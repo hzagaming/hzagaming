@@ -56,12 +56,6 @@
 
 
 ---
-Unity/Unreal/Godot Game Developer
-</p>
-3DCG Art/CGA/CGI
-</p>
-Web/Software/IOS/MacOS developer
-</p>
 Founder of Hanazar Software & Hanazar Games
 </p>
 Shanghai Mirako Technologies, Full Stack Developer
