@@ -1,13 +1,4 @@
 
-<a href="https://www.linkedin.com/in/charlie-zhong-1776ba336/">
-<img src="https://img.shields.io/badge/LinkedIn-grey?style=flat-square&logo=linkedin&logoColor=white">
-<img src="https://img.shields.io/badge/9.1k-0A66C2?style=flat-square">
-</a>
-
-
-
-</p>
-
 
 
 
@@ -49,8 +40,7 @@ Shanghai Mirako Technologies, Full Stack Developer
 
 zlc.sg@proton.me
 </p>
-zlc.sg@outlook.com
+senkawa@tutamail.com
 
 ---
 
-⭐ If you like my projects, consider giving them a star!
