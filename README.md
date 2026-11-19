@@ -38,9 +38,8 @@ Shanghai Mirako Technologies, Full Stack Developer
 </a>
 </p>
 
-zlc.sg@proton.me
 </p>
-senkawa@tutamail.com
+Anything contact：senkawa@tutamail.com
 
 ---
 
